@@ -11,7 +11,7 @@ def bubblesort(arr):
     """
     for i in range(len(arr)): # each item
         for j in range(len(arr) - 1): #compared with other items
-            # if arr[i] < arr[j]: # for decending order
+            # if arr[j] < arr[j + 1]: # for decending order
             if arr[j] > arr[j + 1]: # if we get a lower value
                 arr[j], arr[j + 1] = arr[j + 1], arr[j] # switching
     
