@@ -1,4 +1,5 @@
 # Algorithms
+# Import the Stack and Queue from the Stack_Queue_Deque file from Data_structure folder
 from Data_structure.Stack_Queue_Deque import Stack, Queue
 
 
